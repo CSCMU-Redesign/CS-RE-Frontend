@@ -9,13 +9,13 @@ To get started, make sure you have Node.js installed on your machine. Then, open
 
 First, run the following command to install the project dependencies:
 
-```
+```bash
 npm install
 ```
 
 Once the installation is complete, you can start the development server by running:
 
-```
+```bash
 npm run dev
 ```
 
