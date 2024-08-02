@@ -4,12 +4,24 @@ import Vue from "@/views/Vue.vue"
 import Airport from "@/views/Airport.vue"
 import About from '@/views/About.vue'
 import PageNotFound from '@/views/PageNotFound.vue'
+import Dashboard from "@/views/Dashboard.vue"
+import Login from "@/views/Login.vue"
 
 const routes = [
     {
         path: "/",
         name: "Home",
         component: Home,
+    },
+    {
+        path: "/admin",
+        name: "Admin",
+        component: Dashboard,
+    },
+    {
+        path: "/adminlogin",
+        name: "AdminLogin",
+        component: Login,
     },
     {
         path: "/vue",
